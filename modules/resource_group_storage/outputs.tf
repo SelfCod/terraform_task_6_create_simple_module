@@ -10,6 +10,3 @@ output "storage_account_id" {
 output "storage_account_primary_file_endpoint" {
   value = azurerm_storage_account.example.primary_file_endpoint
 }
-locals {
-  name = "${var.prefix}${random_string.suffix.result}"
-}

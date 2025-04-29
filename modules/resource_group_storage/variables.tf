@@ -13,7 +13,3 @@ variable "location" {
   description = "The location for all resources"
 }
 
-variable "subscription_id" {
-  type        = string
-  description = "Ідентифікатор підписки Azure"
-}
